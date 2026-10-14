@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Internal",
+    "children" : [ {
+      "name" : "Проверка формы элемента справочника Организации",
+      "children" : [ {
+        "name" : "проверка расположения элементов в форме Организаций",
+        "children" : [ {
+          "name" : "проверка расположения элементов в форме Организаций",
+          "uid" : "d64a4dbf72d45b68",
+          "parentUid" : "f510aa6f0ac12a0a3bad66d89f2fa5f8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1791997735515,
+            "stop" : 1791997736316,
+            "duration" : 801
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f510aa6f0ac12a0a3bad66d89f2fa5f8"
+      } ],
+      "uid" : "977b112a813029b0a0794bb4b30d7d47"
+    } ],
+    "uid" : "48217fb0349383bad8967a9380928b4d"
+  } ],
+  "name" : "behaviors"
+}

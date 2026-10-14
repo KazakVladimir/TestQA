@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 14 20:08:55 MSK 2026","Wed Oct 14 20:08:56 MSK 2026","801","","Проверка формы элемента справочника Организации","","","","проверка расположения элементов в форме Организаций",""

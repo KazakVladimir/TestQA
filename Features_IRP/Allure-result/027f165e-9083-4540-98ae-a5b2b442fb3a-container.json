@@ -1,0 +1,27 @@
+{
+	"uuid": "84600173-1524-4d6f-b623-1232a547ac5d",
+	"name": "Контекст_проверка расположения элементов в форме Организаций",
+	"description": "",
+	"children": [
+		"027f165e-9083-4540-98ae-a5b2b442fb3a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1791997735524,
+			"stop": 1791997735553,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

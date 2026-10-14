@@ -1,0 +1,22 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-GTJK99K",
+    "children" : [ {
+      "name" : "проверка расположения элементов в форме Организаций",
+      "uid" : "d64a4dbf72d45b68",
+      "parentUid" : "1c197da6b81597eba250cc7151e61ec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1791997735515,
+        "stop" : 1791997736316,
+        "duration" : 801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1c197da6b81597eba250cc7151e61ec3"
+  } ],
+  "name" : "timeline"
+}
