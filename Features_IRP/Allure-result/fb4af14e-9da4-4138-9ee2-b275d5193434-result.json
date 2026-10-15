@@ -1,0 +1,76 @@
+{
+	"uuid": "fb4af14e-9da4-4138-9ee2-b275d5193434",
+	"historyId": "internal/добавление внешних файлов/проверка добавления картинок к номенклатуре.feature__0602 проверка добавления картинки_322d58e303a36472e85448d77fad7262",
+	"name": "_0602 проверка добавления картинки",
+	"fullName": "internal/добавление внешних файлов/проверка добавления картинок к номенклатуре.feature__0602 проверка добавления картинки",
+	"testCaseId": "322d58e303a36472e85448d77fad7262",
+	"start": 1792078818376,
+	"stop": 1792078818798,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я делаю клик по элементу клиента тестирования '+' 'Тип' UI Automation",
+			"start": 1792078818383,
+			"stop": 1792078818796,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "+"
+				},
+				{
+					"name": "Парам2",
+					"value": "Тип"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0602 проверка добавления картинки"
+		},
+		{
+			"name": "feature",
+			"value": "проверка добавления картинок в справочник Номенклатура"
+		},
+		{
+			"name": "epic",
+			"value": "Internal"
+		},
+		{
+			"name": "suite",
+			"value": "проверка добавления картинок в справочник Номенклатура"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Добавление внешних файлов"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-GTJK99K"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
