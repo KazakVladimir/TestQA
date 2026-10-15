@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "f3d4e11408b5234fd839474e530b2c18",
-    "name" : "Проверка формы элемента справочника Организации",
+    "uid" : "d09d195fb732e351b47421270cbe958d",
+    "name" : "экспорт основных данных",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

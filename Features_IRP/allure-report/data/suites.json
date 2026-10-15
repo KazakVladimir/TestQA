@@ -1,22 +1,22 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
-    "name" : "Проверка формы элемента справочника Организации",
+    "name" : "экспорт основных данных",
     "children" : [ {
-      "name" : "проверка расположения элементов в форме Организаций",
-      "uid" : "d64a4dbf72d45b68",
-      "parentUid" : "f3d4e11408b5234fd839474e530b2c18",
-      "status" : "passed",
+      "name" : "экспорт основных данных",
+      "uid" : "28ba85f730fad861",
+      "parentUid" : "d09d195fb732e351b47421270cbe958d",
+      "status" : "failed",
       "time" : {
-        "start" : 1791997735515,
-        "stop" : 1791997736316,
-        "duration" : 801
+        "start" : 1792007533873,
+        "stop" : 1792007538225,
+        "duration" : 4352
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "f3d4e11408b5234fd839474e530b2c18"
-  } ],
-  "name" : "suites"
+    "uid" : "d09d195fb732e351b47421270cbe958d"
+  } ]
 }

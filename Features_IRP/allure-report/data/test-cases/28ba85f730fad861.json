@@ -1,0 +1,1564 @@
+{
+  "uid" : "28ba85f730fad861",
+  "name" : "экспорт основных данных",
+  "fullName" : "external/экспорт основных данных.feature_экспорт основных данных",
+  "historyId" : "external/экспорт основных данных.feature_экспорт основных данных_209fc9646f5c265e1113b2c8c055ac47",
+  "time" : {
+    "start" : 1792007533873,
+    "stop" : 1792007538225,
+    "duration" : 4352
+  },
+  "status" : "failed",
+  "statusMessage" : "Ошибка при вызове метода контекста (Write):",
+  "statusTrace" : "{ExternalDataProcessor.VanessaAutomation.Form.ПодготовкаИЗагрузкаДанных.Form(787)}: Ошибка при вызове метода контекста (Write): Не удалось записать: \"Спецификация товара\"!\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Users_kuc9l_Documents_TestIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: экспорт основных данных\n        ИмяСценария: экспорт основных данных\n        НомерСтрокиДерева: 193\n        НомерСтрокиФичи: 284\n        ПолныйПутьКФиче: C:\\Users\\kuc9l\\Documents\\GitHub\\TestQA\\Features_IRP\\External\\Экспорт основных данных.feature\n        ИмяФайла: C:\\Users\\kuc9l\\Desktop\\MSC\\Повышение квалификации\\Сценарное тестирование. Vanessa\\Инструмент vanessa-automation\\features\\Libraries\\ПодготовкаИЗагрузкаДанных\\ПодготовкаИЗагрузкаДанных.epf\n        ИмяПроцедуры: ЯПроверяюИлиСоздаюДляСправочникаОбъекты\n        ИмяРаннера: DESKTOP-GTJK99K\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\kuc9l\\Documents\\TestIRP\";\n        ДопПараметрыПодключения: /N CI /P***** /L ru \n        PIDКлиентаТестирования: 24748\n        ВерсияVA: ver 1.2.043.28\n        ВерсияПлатформы: 8.3.27.2130\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:05 (ч:м:с)\n        ДатаВремяОшибки: 14.10.2026 22:52:18\n        ОбнаруженоНештатноеЗавершениеКлиентаТестирования: Нет",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1792007533884,
+      "stop" : 1792007533902,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Ошибка при вызове метода контекста (Write):",
+    "statusTrace" : "{ExternalDataProcessor.VanessaAutomation.Form.ПодготовкаИЗагрузкаДанных.Form(787)}: Ошибка при вызове метода контекста (Write): Не удалось записать: \"Спецификация товара\"!\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Users_kuc9l_Documents_TestIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: экспорт основных данных\n        ИмяСценария: экспорт основных данных\n        НомерСтрокиДерева: 193\n        НомерСтрокиФичи: 284\n        ПолныйПутьКФиче: C:\\Users\\kuc9l\\Documents\\GitHub\\TestQA\\Features_IRP\\External\\Экспорт основных данных.feature\n        ИмяФайла: C:\\Users\\kuc9l\\Desktop\\MSC\\Повышение квалификации\\Сценарное тестирование. Vanessa\\Инструмент vanessa-automation\\features\\Libraries\\ПодготовкаИЗагрузкаДанных\\ПодготовкаИЗагрузкаДанных.epf\n        ИмяПроцедуры: ЯПроверяюИлиСоздаюДляСправочникаОбъекты\n        ИмяРаннера: DESKTOP-GTJK99K\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\kuc9l\\Documents\\TestIRP\";\n        ДопПараметрыПодключения: /N CI /P***** /L ru \n        PIDКлиентаТестирования: 24748\n        ВерсияVA: ver 1.2.043.28\n        ВерсияПлатформы: 8.3.27.2130\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:05 (ч:м:с)\n        ДатаВремяОшибки: 14.10.2026 22:52:18\n        ОбнаруженоНештатноеЗавершениеКлиентаТестирования: Нет",
+    "steps" : [ {
+      "name" : "И я перезаполняю константу \"SaasMode\" значением \"False\"",
+      "time" : {
+        "start" : 1792007533904,
+        "stop" : 1792007533920,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "SaasMode"
+      }, {
+        "name" : "Парам2",
+        "value" : "False"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю константу \"EnableLinkedRowsIntegrity\" значением \"False\"",
+      "time" : {
+        "start" : 1792007533921,
+        "stop" : 1792007533935,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "EnableLinkedRowsIntegrity"
+      }, {
+        "name" : "Парам2",
+        "value" : "False"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю константу \"UseLockDataModification\" значением \"True\"",
+      "time" : {
+        "start" : 1792007533936,
+        "stop" : 1792007533949,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "UseLockDataModification"
+      }, {
+        "name" : "Парам2",
+        "value" : "True"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю константу \"UseItemKey\" значением \"True\"",
+      "time" : {
+        "start" : 1792007533950,
+        "stop" : 1792007533964,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "UseItemKey"
+      }, {
+        "name" : "Парам2",
+        "value" : "True"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю константу \"UseCompanies\" значением \"True\"",
+      "time" : {
+        "start" : 1792007533966,
+        "stop" : 1792007533982,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "UseCompanies"
+      }, {
+        "name" : "Парам2",
+        "value" : "True"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю константу \"NotFirstStart\" значением \"False\"",
+      "time" : {
+        "start" : 1792007533985,
+        "stop" : 1792007534001,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "NotFirstStart"
+      }, {
+        "name" : "Парам2",
+        "value" : "False"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Currencies\" объекты:",
+      "time" : {
+        "start" : 1792007534002,
+        "stop" : 1792007534032,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3c7ed4ab957ae7d",
+        "name" : "table",
+        "source" : "c3c7ed4ab957ae7d.csv",
+        "type" : "text/csv",
+        "size" : 359
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Currencies"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Taxes\" объекты:",
+      "time" : {
+        "start" : 1792007534034,
+        "stop" : 1792007534058,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49d9eba4a5d16fbb",
+        "name" : "table",
+        "source" : "49d9eba4a5d16fbb.csv",
+        "type" : "text/csv",
+        "size" : 613
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Taxes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"TaxRates\":",
+      "time" : {
+        "start" : 1792007534060,
+        "stop" : 1792007534077,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5e910a462cda7c0",
+        "name" : "table",
+        "source" : "b5e910a462cda7c0.csv",
+        "type" : "text/csv",
+        "size" : 416
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "TaxRates"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"UseDocuments\":",
+      "time" : {
+        "start" : 1792007534079,
+        "stop" : 1792007534098,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27daec03af2027a",
+        "name" : "table",
+        "source" : "27daec03af2027a.csv",
+        "type" : "text/csv",
+        "size" : 1095
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "UseDocuments"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"ItemTypes\" объекты:",
+      "time" : {
+        "start" : 1792007534100,
+        "stop" : 1792007534204,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2c45872b17b65f",
+        "name" : "table",
+        "source" : "b2c45872b17b65f.csv",
+        "type" : "text/csv",
+        "size" : 784
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ItemTypes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"AvailableAttributes\":",
+      "time" : {
+        "start" : 1792007534205,
+        "stop" : 1792007534223,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "994248acdc591797",
+        "name" : "table",
+        "source" : "994248acdc591797.csv",
+        "type" : "text/csv",
+        "size" : 447
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "AvailableAttributes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"PriceTypes\" объекты:",
+      "time" : {
+        "start" : 1792007534224,
+        "stop" : 1792007534273,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfe291b5363a8ece",
+        "name" : "table",
+        "source" : "dfe291b5363a8ece.csv",
+        "type" : "text/csv",
+        "size" : 1225
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PriceTypes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"ExternalDataProc\" объекты:",
+      "time" : {
+        "start" : 1792007534274,
+        "stop" : 1792007534314,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bacf520265518e5c",
+        "name" : "table",
+        "source" : "bacf520265518e5c.csv",
+        "type" : "text/csv",
+        "size" : 26889
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ExternalDataProc"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"UserGroups\" объекты:",
+      "time" : {
+        "start" : 1792007534315,
+        "stop" : 1792007534339,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c464129859aff6a0",
+        "name" : "table",
+        "source" : "c464129859aff6a0.csv",
+        "type" : "text/csv",
+        "size" : 200
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "UserGroups"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Units\" объекты:",
+      "time" : {
+        "start" : 1792007534340,
+        "stop" : 1792007534373,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6acc57023655ff6f",
+        "name" : "table",
+        "source" : "6acc57023655ff6f.csv",
+        "type" : "text/csv",
+        "size" : 508
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Units"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"CashAccounts\" объекты:",
+      "time" : {
+        "start" : 1792007534374,
+        "stop" : 1792007534423,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4941c560e8593e4",
+        "name" : "table",
+        "source" : "d4941c560e8593e4.csv",
+        "type" : "text/csv",
+        "size" : 1958
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "CashAccounts"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"TaxRates\" объекты:",
+      "time" : {
+        "start" : 1792007534425,
+        "stop" : 1792007534459,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4571ba48f2e6547e",
+        "name" : "table",
+        "source" : "4571ba48f2e6547e.csv",
+        "type" : "text/csv",
+        "size" : 414
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "TaxRates"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"IntegrationSettings\" объекты:",
+      "time" : {
+        "start" : 1792007534461,
+        "stop" : 1792007534492,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d8702bbea8349f6",
+        "name" : "table",
+        "source" : "8d8702bbea8349f6.csv",
+        "type" : "text/csv",
+        "size" : 621
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "IntegrationSettings"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"ConnectionSetting\":",
+      "time" : {
+        "start" : 1792007534494,
+        "stop" : 1792007534520,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "764e8f7210f18c7",
+        "name" : "table",
+        "source" : "764e8f7210f18c7.csv",
+        "type" : "text/csv",
+        "size" : 2144
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ConnectionSetting"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Items\" объекты:",
+      "time" : {
+        "start" : 1792007534521,
+        "stop" : 1792007534573,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6016de178cf889a7",
+        "name" : "table",
+        "source" : "6016de178cf889a7.csv",
+        "type" : "text/csv",
+        "size" : 1947
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Items"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"AddAttributes\":",
+      "time" : {
+        "start" : 1792007534574,
+        "stop" : 1792007534603,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98c60891644004fc",
+        "name" : "table",
+        "source" : "98c60891644004fc.csv",
+        "type" : "text/csv",
+        "size" : 1045
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "AddAttributes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Companies\" объекты:",
+      "time" : {
+        "start" : 1792007534605,
+        "stop" : 1792007534683,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f33989922ef541d3",
+        "name" : "table",
+        "source" : "f33989922ef541d3.csv",
+        "type" : "text/csv",
+        "size" : 2443
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Companies"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"Currencies\":",
+      "time" : {
+        "start" : 1792007534685,
+        "stop" : 1792007534704,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee1dc345c9c8e99d",
+        "name" : "table",
+        "source" : "ee1dc345c9c8e99d.csv",
+        "type" : "text/csv",
+        "size" : 693
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Currencies"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Partners\" объекты:",
+      "time" : {
+        "start" : 1792007534706,
+        "stop" : 1792007534800,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35408ccd94f3dd9",
+        "name" : "table",
+        "source" : "35408ccd94f3dd9.csv",
+        "type" : "text/csv",
+        "size" : 2651
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Partners"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"BusinessUnits\" объекты:",
+      "time" : {
+        "start" : 1792007534802,
+        "stop" : 1792007534839,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0d60484e0f8cfa4",
+        "name" : "table",
+        "source" : "e0d60484e0f8cfa4.csv",
+        "type" : "text/csv",
+        "size" : 513
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "BusinessUnits"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"AccessProfiles\" объекты:",
+      "time" : {
+        "start" : 1792007534840,
+        "stop" : 1792007534881,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c6135dded0ef3844",
+        "name" : "table",
+        "source" : "c6135dded0ef3844.csv",
+        "type" : "text/csv",
+        "size" : 346
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "AccessProfiles"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"Roles\":",
+      "time" : {
+        "start" : 1792007534883,
+        "stop" : 1792007534904,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff97fce2f0d9db35",
+        "name" : "table",
+        "source" : "ff97fce2f0d9db35.csv",
+        "type" : "text/csv",
+        "size" : 992
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Roles"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"PartnerSegments\" объекты:",
+      "time" : {
+        "start" : 1792007534905,
+        "stop" : 1792007534945,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c97bf35aeef519",
+        "name" : "table",
+        "source" : "3c97bf35aeef519.csv",
+        "type" : "text/csv",
+        "size" : 524
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PartnerSegments"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Stores\" объекты:",
+      "time" : {
+        "start" : 1792007534947,
+        "stop" : 1792007534992,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d84a94270abc77f6",
+        "name" : "table",
+        "source" : "d84a94270abc77f6.csv",
+        "type" : "text/csv",
+        "size" : 674
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Stores"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Agreements\" объекты:",
+      "time" : {
+        "start" : 1792007534993,
+        "stop" : 1792007535093,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a574c0d855edaee",
+        "name" : "table",
+        "source" : "a574c0d855edaee.csv",
+        "type" : "text/csv",
+        "size" : 6810
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Agreements"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Specifications\" объекты:",
+      "time" : {
+        "start" : 1792007535095,
+        "stop" : 1792007538224,
+        "duration" : 3129
+      },
+      "status" : "failed",
+      "statusMessage" : "Ошибка при вызове метода контекста (Write):",
+      "statusTrace" : "{ExternalDataProcessor.VanessaAutomation.Form.ПодготовкаИЗагрузкаДанных.Form(787)}: Ошибка при вызове метода контекста (Write): Не удалось записать: \"Спецификация товара\"!\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: File_\"C__Users_kuc9l_Documents_TestIRP\"_ (Test app)\n        ИмяАктивнойФормы: \n        ИмяФичи: экспорт основных данных\n        ИмяСценария: экспорт основных данных\n        НомерСтрокиДерева: 193\n        НомерСтрокиФичи: 284\n        ПолныйПутьКФиче: C:\\Users\\kuc9l\\Documents\\GitHub\\TestQA\\Features_IRP\\External\\Экспорт основных данных.feature\n        ИмяФайла: C:\\Users\\kuc9l\\Desktop\\MSC\\Повышение квалификации\\Сценарное тестирование. Vanessa\\Инструмент vanessa-automation\\features\\Libraries\\ПодготовкаИЗагрузкаДанных\\ПодготовкаИЗагрузкаДанных.epf\n        ИмяПроцедуры: ЯПроверяюИлиСоздаюДляСправочникаОбъекты\n        ИмяРаннера: DESKTOP-GTJK99K\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\kuc9l\\Documents\\TestIRP\";\n        ДопПараметрыПодключения: /N CI /P***** /L ru \n        PIDКлиентаТестирования: 24748\n        ВерсияVA: ver 1.2.043.28\n        ВерсияПлатформы: 8.3.27.2130\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:05 (ч:м:с)\n        ДатаВремяОшибки: 14.10.2026 22:52:18\n        ОбнаруженоНештатноеЗавершениеКлиентаТестирования: Нет",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2856c6318389e65",
+        "name" : "table",
+        "source" : "c2856c6318389e65.csv",
+        "type" : "text/csv",
+        "size" : 1419
+      }, {
+        "uid" : "828ce45dd4c47c74",
+        "name" : "ЖурналРегистрации.mxl",
+        "source" : "828ce45dd4c47c74.mxl",
+        "type" : "mxl",
+        "size" : 165481
+      }, {
+        "uid" : "dd99b7a481f16960",
+        "name" : "ЖурналРегистрации.html",
+        "source" : "dd99b7a481f16960.html",
+        "type" : "html",
+        "size" : 270142
+      }, {
+        "uid" : "2c194c3de5b3d574",
+        "name" : "ЖурналРегистрации.xlsx",
+        "source" : "2c194c3de5b3d574.xlsx",
+        "type" : "xlsx",
+        "size" : 23349
+      }, {
+        "uid" : "d8749cbd51ce9e23",
+        "name" : "СостояниеАктивнойФормы.mxl",
+        "source" : "d8749cbd51ce9e23.mxl",
+        "type" : "mxl",
+        "size" : 1407
+      }, {
+        "uid" : "9f8ee368a7a02be9",
+        "name" : "СостояниеАктивнойФормы.html",
+        "source" : "9f8ee368a7a02be9.html",
+        "type" : "html",
+        "size" : 2678
+      }, {
+        "uid" : "d75f6006c0b335dd",
+        "name" : "СостояниеАктивнойФормы.xlsx",
+        "source" : "d75f6006c0b335dd.xlsx",
+        "type" : "xlsx",
+        "size" : 6578
+      }, {
+        "uid" : "87b5eeabff0fbcdc",
+        "name" : "СостояниеВсехФорм.mxl",
+        "source" : "87b5eeabff0fbcdc.mxl",
+        "type" : "mxl",
+        "size" : 1407
+      }, {
+        "uid" : "8753cf803fcce642",
+        "name" : "СостояниеВсехФорм.html",
+        "source" : "8753cf803fcce642.html",
+        "type" : "html",
+        "size" : 2678
+      }, {
+        "uid" : "d0acef302f508e1f",
+        "name" : "СостояниеВсехФорм.xlsx",
+        "source" : "d0acef302f508e1f.xlsx",
+        "type" : "xlsx",
+        "size" : 6578
+      }, {
+        "uid" : "c45ee5dd1ef6a80d",
+        "name" : "ДанныеОСетевыхСоединениях.txt",
+        "source" : "c45ee5dd1ef6a80d.txt",
+        "type" : "txt",
+        "size" : 10387
+      }, {
+        "uid" : "ba590e90285aee39",
+        "name" : "ДанныеОПроцессахОС.txt",
+        "source" : "ba590e90285aee39.txt",
+        "type" : "txt",
+        "size" : 23317
+      }, {
+        "uid" : "d01a780367a9c9c4",
+        "name" : "ЗначенияПеременных.mxl",
+        "source" : "d01a780367a9c9c4.mxl",
+        "type" : "mxl",
+        "size" : 2772
+      }, {
+        "uid" : "d78cc472962e2e4c",
+        "name" : "ЗначенияПеременных.html",
+        "source" : "d78cc472962e2e4c.html",
+        "type" : "html",
+        "size" : 5658
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Specifications"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 14,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"DataSet\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7bd95cb1fe27354",
+        "name" : "table",
+        "source" : "d7bd95cb1fe27354.csv",
+        "type" : "text/csv",
+        "size" : 5398
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "DataSet"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"DataQuantity\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edc7a6f832b9af3a",
+        "name" : "table",
+        "source" : "edc7a6f832b9af3a.csv",
+        "type" : "text/csv",
+        "size" : 963
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "DataQuantity"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"DataBaseStatus\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4525142e84518677",
+        "name" : "table",
+        "source" : "4525142e84518677.csv",
+        "type" : "text/csv",
+        "size" : 2129
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "DataBaseStatus"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"ConnectionSettings\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d141e36cf74d28f",
+        "name" : "table",
+        "source" : "2d141e36cf74d28f.csv",
+        "type" : "text/csv",
+        "size" : 918
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ConnectionSettings"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"ObjectStatuses\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17fa21d424d5618a",
+        "name" : "table",
+        "source" : "17fa21d424d5618a.csv",
+        "type" : "text/csv",
+        "size" : 5880
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ObjectStatuses"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"Countries\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e17caacae461500",
+        "name" : "table",
+        "source" : "e17caacae461500.csv",
+        "type" : "text/csv",
+        "size" : 311
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Countries"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"PaymentSchedules\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bdcbf0620735b4cd",
+        "name" : "table",
+        "source" : "bdcbf0620735b4cd.csv",
+        "type" : "text/csv",
+        "size" : 357
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PaymentSchedules"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"StagesOfPayment\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a448d97bfca28707",
+        "name" : "table",
+        "source" : "a448d97bfca28707.csv",
+        "type" : "text/csv",
+        "size" : 319
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "StagesOfPayment"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для справочника \"ItemKeys\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4b63ff2dbe25315",
+        "name" : "table",
+        "source" : "e4b63ff2dbe25315.csv",
+        "type" : "text/csv",
+        "size" : 4178
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ItemKeys"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"AddAttributes\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed8e66e0621216d3",
+        "name" : "table",
+        "source" : "ed8e66e0621216d3.csv",
+        "type" : "text/csv",
+        "size" : 2125
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "AddAttributes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"SpecificationAffectPricingMD5\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8422feaa00e40552",
+        "name" : "table",
+        "source" : "8422feaa00e40552.csv",
+        "type" : "text/csv",
+        "size" : 1244
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "SpecificationAffectPricingMD5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для документа \"PriceList\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "738b193dc8b8c1ed",
+        "name" : "table",
+        "source" : "738b193dc8b8c1ed.csv",
+        "type" : "text/csv",
+        "size" : 991
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PriceList"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"ItemList\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18e0ff67d1cf38e0",
+        "name" : "table",
+        "source" : "18e0ff67d1cf38e0.csv",
+        "type" : "text/csv",
+        "size" : 634
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ItemList"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перезаполняю для объекта табличную часть \"ItemKeyList\":",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15fab2acf25dbbfe",
+        "name" : "table",
+        "source" : "15fab2acf25dbbfe.csv",
+        "type" : "text/csv",
+        "size" : 2315
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ItemKeyList"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для плана видов характеристик \"CurrencyMovementType\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a2ae1bf5a557c87",
+        "name" : "table",
+        "source" : "9a2ae1bf5a557c87.csv",
+        "type" : "text/csv",
+        "size" : 1646
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "CurrencyMovementType"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для плана видов характеристик \"AddAttributeAndProperty\" объекты:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dabf462af7b8e60f",
+        "name" : "table",
+        "source" : "dabf462af7b8e60f.csv",
+        "type" : "text/csv",
+        "size" : 1088
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "AddAttributeAndProperty"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"CurrencyRates\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b253fd42cafbda87",
+        "name" : "table",
+        "source" : "b253fd42cafbda87.csv",
+        "type" : "text/csv",
+        "size" : 572
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "CurrencyRates"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"Taxes\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ebdb4fd320adbb8",
+        "name" : "table",
+        "source" : "9ebdb4fd320adbb8.csv",
+        "type" : "text/csv",
+        "size" : 378
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Taxes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"TaxSettings\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad9f638d5b01f42c",
+        "name" : "table",
+        "source" : "ad9f638d5b01f42c.csv",
+        "type" : "text/csv",
+        "size" : 313
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "TaxSettings"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"PricesByItems\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c3eaf436671c9cd",
+        "name" : "table",
+        "source" : "7c3eaf436671c9cd.csv",
+        "type" : "text/csv",
+        "size" : 1090
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PricesByItems"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"PricesByItemKeys\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a4b7848018f9b19",
+        "name" : "table",
+        "source" : "1a4b7848018f9b19.csv",
+        "type" : "text/csv",
+        "size" : 3113
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PricesByItemKeys"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"Barcodes\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "524cd951b17613ab",
+        "name" : "table",
+        "source" : "524cd951b17613ab.csv",
+        "type" : "text/csv",
+        "size" : 635
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Barcodes"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я проверяю или создаю для регистра сведений \"PartnerSegments\" записи:",
+      "time" : {
+        "start" : 1792007538225,
+        "stop" : 1792007538225,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd396c75d07f7080",
+        "name" : "table",
+        "source" : "dd396c75d07f7080.csv",
+        "type" : "text/csv",
+        "size" : 876
+      }, {
+        "uid" : "f2f6d0c2f8c8206a",
+        "name" : "MainScreen",
+        "source" : "f2f6d0c2f8c8206a.png",
+        "type" : "image/png",
+        "size" : 79454
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "PartnerSegments"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5d32530e35e3d1c5",
+      "name" : "MainScreen",
+      "source" : "5d32530e35e3d1c5.png",
+      "type" : "image/png",
+      "size" : 79454
+    }, {
+      "uid" : "5f08d207f74a364e",
+      "name" : "ЖурналРегистрации.mxl",
+      "source" : "5f08d207f74a364e.mxl",
+      "type" : "mxl",
+      "size" : 165481
+    }, {
+      "uid" : "4daece30b6b93d9",
+      "name" : "ЖурналРегистрации.html",
+      "source" : "4daece30b6b93d9.html",
+      "type" : "html",
+      "size" : 270142
+    }, {
+      "uid" : "37d4f7164c69cfdd",
+      "name" : "ЖурналРегистрации.xlsx",
+      "source" : "37d4f7164c69cfdd.xlsx",
+      "type" : "xlsx",
+      "size" : 23349
+    }, {
+      "uid" : "47a6e6ba6f31a9f0",
+      "name" : "СостояниеАктивнойФормы.mxl",
+      "source" : "47a6e6ba6f31a9f0.mxl",
+      "type" : "mxl",
+      "size" : 1407
+    }, {
+      "uid" : "379a070af627af3b",
+      "name" : "СостояниеАктивнойФормы.html",
+      "source" : "379a070af627af3b.html",
+      "type" : "html",
+      "size" : 2678
+    }, {
+      "uid" : "cb4dd738b67d6dea",
+      "name" : "СостояниеАктивнойФормы.xlsx",
+      "source" : "cb4dd738b67d6dea.xlsx",
+      "type" : "xlsx",
+      "size" : 6578
+    }, {
+      "uid" : "a4bd04350a02d33a",
+      "name" : "СостояниеВсехФорм.mxl",
+      "source" : "a4bd04350a02d33a.mxl",
+      "type" : "mxl",
+      "size" : 1407
+    }, {
+      "uid" : "2607a324f623f202",
+      "name" : "СостояниеВсехФорм.html",
+      "source" : "2607a324f623f202.html",
+      "type" : "html",
+      "size" : 2678
+    }, {
+      "uid" : "dd54ecf897b314ad",
+      "name" : "СостояниеВсехФорм.xlsx",
+      "source" : "dd54ecf897b314ad.xlsx",
+      "type" : "xlsx",
+      "size" : 6578
+    }, {
+      "uid" : "20f0ad23913a1d45",
+      "name" : "ДанныеОСетевыхСоединениях.txt",
+      "source" : "20f0ad23913a1d45.txt",
+      "type" : "txt",
+      "size" : 10387
+    }, {
+      "uid" : "ca72962ed3bbd640",
+      "name" : "ДанныеОПроцессахОС.txt",
+      "source" : "ca72962ed3bbd640.txt",
+      "type" : "txt",
+      "size" : 23317
+    }, {
+      "uid" : "388c9114569db62e",
+      "name" : "ЗначенияПеременных.mxl",
+      "source" : "388c9114569db62e.mxl",
+      "type" : "mxl",
+      "size" : 2772
+    }, {
+      "uid" : "cd55d4426263bc4c",
+      "name" : "ЗначенияПеременных.html",
+      "source" : "cd55d4426263bc4c.html",
+      "type" : "html",
+      "size" : 5658
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 55,
+    "hasContent" : true,
+    "attachmentsCount" : 77,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "экспорт основных данных"
+  }, {
+    "name" : "feature",
+    "value" : "экспорт основных данных"
+  }, {
+    "name" : "epic",
+    "value" : "External"
+  }, {
+    "name" : "suite",
+    "value" : "экспорт основных данных"
+  }, {
+    "name" : "tag",
+    "value" : "IgnoreOnCIMainBuild"
+  }, {
+    "name" : "tag",
+    "value" : "ExportScenarios"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "External"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GTJK99K"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "IgnoreOnCIMainBuild", "ExportScenarios", "tree" ]
+  },
+  "source" : "28ba85f730fad861.json",
+  "parameterValues" : [ ]
+}

@@ -1,22 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
-    "name" : "Быстрые проверки",
+    "name" : "External",
     "children" : [ {
-      "name" : "проверка расположения элементов в форме Организаций",
-      "uid" : "d64a4dbf72d45b68",
-      "parentUid" : "22e2d69f1eb4cb1c27a58fc345b96138",
-      "status" : "passed",
+      "name" : "экспорт основных данных",
+      "uid" : "28ba85f730fad861",
+      "parentUid" : "c1c55e1f911573fff3f055d690f3c903",
+      "status" : "failed",
       "time" : {
-        "start" : 1791997735515,
-        "stop" : 1791997736316,
-        "duration" : 801
+        "start" : 1792007533873,
+        "stop" : 1792007538225,
+        "duration" : 4352
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "22e2d69f1eb4cb1c27a58fc345b96138"
-  } ],
-  "name" : "packages"
+    "uid" : "c1c55e1f911573fff3f055d690f3c903"
+  } ]
 }
