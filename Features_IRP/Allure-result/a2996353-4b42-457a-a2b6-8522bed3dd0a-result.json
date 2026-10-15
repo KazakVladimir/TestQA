@@ -1,0 +1,190 @@
+{
+	"uuid": "a2996353-4b42-457a-a2b6-8522bed3dd0a",
+	"historyId": "external/экспорт документов для проверки движений.feature_загрузка документов поступление товаров и услуг будущим числом_cfb3be7dd6525cd76fd6b66e2bc00134",
+	"name": "загрузка документов Поступление товаров и услуг будущим числом",
+	"fullName": "external/экспорт документов для проверки движений.feature_загрузка документов поступление товаров и услуг будущим числом",
+	"testCaseId": "cfb3be7dd6525cd76fd6b66e2bc00134",
+	"start": 1792073143208,
+	"stop": 1792073143569,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я проверяю или создаю для документа \"PurchaseInvoice\" объекты:",
+			"start": 1792073143218,
+			"stop": 1792073143466,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "PurchaseInvoice"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "d5c74eae-14d9-4953-b575-5fbba4225301-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я перезаполняю для объекта табличную часть \"ItemList\":",
+			"start": 1792073143468,
+			"stop": 1792073143494,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ItemList"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "72cee804-7664-4599-acc5-279c346c7872-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я перезаполняю для объекта табличную часть \"TaxList\":",
+			"start": 1792073143495,
+			"stop": 1792073143518,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "TaxList"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "6f26d277-5de4-41f2-aa35-d0421f728902-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я перезаполняю для объекта табличную часть \"Currencies\":",
+			"start": 1792073143519,
+			"stop": 1792073143543,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Currencies"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "8d3c5d6a-922a-4698-bd68-f4514f98cc42-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я перезаполняю для объекта табличную часть \"RowIDInfo\":",
+			"start": 1792073143545,
+			"stop": 1792073143568,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "RowIDInfo"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "e65d5da5-817f-4ca5-a375-a104c0bcaa6a-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "загрузка документов Поступление товаров и услуг будущим числом"
+		},
+		{
+			"name": "feature",
+			"value": "экспорт документов для проверки движений"
+		},
+		{
+			"name": "epic",
+			"value": "External"
+		},
+		{
+			"name": "suite",
+			"value": "экспорт документов для проверки движений"
+		},
+		{
+			"name": "tag",
+			"value": "IgnoreOnCIMainBuild"
+		},
+		{
+			"name": "tag",
+			"value": "ExportScenarios"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "External"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-GTJK99K"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
