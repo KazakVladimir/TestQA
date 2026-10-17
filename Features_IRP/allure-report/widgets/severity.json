@@ -1,11 +1,21 @@
 [ {
-  "uid" : "28ba85f730fad861",
-  "name" : "экспорт основных данных",
+  "uid" : "c6acdc156ab82ebe",
+  "name" : "подготовка данных для проверки возвратов",
   "time" : {
-    "start" : 1792007533873,
-    "stop" : 1792007538225,
-    "duration" : 4352
+    "start" : 1792203724115,
+    "stop" : 1792203727039,
+    "duration" : 2924
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc540c30a6b36bb2",
+  "name" : "проверка отчета по продажам",
+  "time" : {
+    "start" : 1792203728076,
+    "stop" : 1792203731051,
+    "duration" : 2975
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

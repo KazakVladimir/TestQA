@@ -1,15 +1,4 @@
 {
-  "total" : 1,
-  "items" : [ {
-    "uid" : "d09d195fb732e351b47421270cbe958d",
-    "name" : "экспорт основных данных",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  } ]
+  "total" : 2,
+  "items" : [ ]
 }

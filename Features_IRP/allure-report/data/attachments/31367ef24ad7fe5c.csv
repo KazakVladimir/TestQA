@@ -1,0 +1,2 @@
+﻿"Ref","Key","Tax","Amount","Analytics","TaxRate","IncludeToTotalAmount","ManualAmount"
+"e1cib/data/Document.SalesReturn?ref=819b6045cb74fdd811f1c9ceff30670a","74818f5a-364b-4efc-bd3b-11240d00fa5e","e1cib/data/Catalog.Taxes?ref=b762b13668d0905011eb7663e35d7970","31.67","","e1cib/data/Catalog.TaxRates?ref=b762b13668d0905011eb7663e35d796c","True","31.67"

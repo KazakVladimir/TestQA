@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Ошибка при вызове метода контекста (Write):",
-      "children" : [ {
-        "name" : "экспорт основных данных",
-        "uid" : "28ba85f730fad861",
-        "parentUid" : "276751e81f0254f39460a69969a85d7f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1792007533873,
-          "stop" : 1792007538225,
-          "duration" : 4352
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "276751e81f0254f39460a69969a85d7f"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

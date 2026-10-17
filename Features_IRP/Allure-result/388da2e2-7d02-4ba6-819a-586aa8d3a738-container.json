@@ -1,0 +1,27 @@
+{
+	"uuid": "8904d5d2-8662-427b-85fa-47a56990251d",
+	"name": "Контекст_проверка отчета по продажам",
+	"description": "",
+	"children": [
+		"388da2e2-7d02-4ba6-819a-586aa8d3a738"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1792203728093,
+			"stop": 1792203728100,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
