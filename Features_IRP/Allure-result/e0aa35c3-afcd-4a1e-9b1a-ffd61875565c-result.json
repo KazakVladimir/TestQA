@@ -1,0 +1,311 @@
+{
+	"uuid": "e0aa35c3-afcd-4a1e-9b1a-ffd61875565c",
+	"historyId": "<описание фичи>.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1792427239721,
+	"stop": 1792427243211,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Макет не совпал с эталоном",
+		"trace": "{ExternalDataProcessor.Условие.Form.Форма.Form(288)}: Макет не совпал с эталоном\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: D1001 Закупки\n        ИмяАктивнойФормы: Report.D1001_Purchases.Form\n        ИмяФичи: <описание фичи>\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 11\n        НомерСтрокиФичи: 23\n        ПолныйПутьКФиче: C:\\Users\\kuc9l\\Documents\\GitHub\\TestQA\\Features\\Модуль5\\ТестЕсли.feature\n        ИмяФайла: C:\\Users\\kuc9l\\Desktop\\MSC\\Повышение квалификации\\Сценарное тестирование. Vanessa\\Инструмент vanessa-automation\\features\\Libraries\\Условие\\step_definitions\\Условие.epf\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: DESKTOP-GTJK99K\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\kuc9l\\Documents\\TestIRP\";\n        ДопПараметрыПодключения: /N CI /P***** /L ru \n        PIDКлиентаТестирования: 12148\n        ВерсияVA: ver 1.2.043.28\n        ВерсияПлатформы: 8.3.27.2130\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 19.10.2026 19:27:23\n        ОбнаруженоНештатноеЗавершениеКлиентаТестирования: Нет"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Сверка с макетами когда не совпадают строки",
+			"start": 1792427239730,
+			"stop": 1792427243211,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Если Табличный документ \"Result\" равен макету \"Закупки2\" Тогда",
+					"start": 1792427239730,
+					"stop": 1792427239879,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "Закупки2"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "ИначеЕсли Табличный документ \"Result\" равен макету \"Закупки1\" Тогда",
+					"start": 1792427239883,
+					"stop": 1792427241197,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "Закупки1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Иначе",
+					"start": 1792427241199,
+					"stop": 1792427243211,
+					"status": "failed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Тогда я вызываю исключение \"Макет не совпал с эталоном\"",
+							"start": 1792427241199,
+							"stop": 1792427243211,
+							"status": "failed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false,
+								"message": "Макет не совпал с эталоном",
+								"trace": "{ExternalDataProcessor.Условие.Form.Форма.Form(288)}: Макет не совпал с эталоном\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: D1001 Закупки\n        ИмяАктивнойФормы: Report.D1001_Purchases.Form\n        ИмяФичи: <описание фичи>\n        ИмяСценария: <описание сценария>\n        НомерСтрокиДерева: 11\n        НомерСтрокиФичи: 23\n        ПолныйПутьКФиче: C:\\Users\\kuc9l\\Documents\\GitHub\\TestQA\\Features\\Модуль5\\ТестЕсли.feature\n        ИмяФайла: C:\\Users\\kuc9l\\Desktop\\MSC\\Повышение квалификации\\Сценарное тестирование. Vanessa\\Инструмент vanessa-automation\\features\\Libraries\\Условие\\step_definitions\\Условие.epf\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: DESKTOP-GTJK99K\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"C:\\Users\\kuc9l\\Documents\\TestIRP\";\n        ДопПараметрыПодключения: /N CI /P***** /L ru \n        PIDКлиентаТестирования: 12148\n        ВерсияVA: ver 1.2.043.28\n        ВерсияПлатформы: 8.3.27.2130\n        ТипПлатформы: Windows x86\n        РежимСовместимостиTestManager: Version8_3_18\n        ВремяРаботыСценария: 0:00:04 (ч:м:с)\n        ДатаВремяОшибки: 19.10.2026 19:27:23\n        ОбнаруженоНештатноеЗавершениеКлиентаТестирования: Нет"
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Макет не совпал с эталоном"
+								}
+							],
+							"attachments": [
+								{
+									"name": "ЖурналРегистрации.mxl",
+									"source": "16c9348d-ce4d-4746-ab81-2e755e9194cd-attachment.mxl",
+									"type": "mxl"
+								},
+								{
+									"name": "ЖурналРегистрации.html",
+									"source": "6cf88848-fe49-4ec6-a722-e7b0ea591a2b-attachment.html",
+									"type": "html"
+								},
+								{
+									"name": "ЖурналРегистрации.xlsx",
+									"source": "c66c0b6e-1dbd-46e2-99d7-49c5afdde187-attachment.xlsx",
+									"type": "xlsx"
+								},
+								{
+									"name": "СостояниеАктивнойФормы.mxl",
+									"source": "d766d91b-cfd8-4d3f-a7e5-6322099e55c7-attachment.mxl",
+									"type": "mxl"
+								},
+								{
+									"name": "СостояниеАктивнойФормы.html",
+									"source": "3f1e2bd8-f1d0-492a-915d-9e229180dab3-attachment.html",
+									"type": "html"
+								},
+								{
+									"name": "СостояниеАктивнойФормы.xlsx",
+									"source": "ec7fd352-34e8-4f39-9081-489fb07469b7-attachment.xlsx",
+									"type": "xlsx"
+								},
+								{
+									"name": "СостояниеВсехФорм.mxl",
+									"source": "5db4c80a-8904-4d9c-b459-f9063d435fcd-attachment.mxl",
+									"type": "mxl"
+								},
+								{
+									"name": "СостояниеВсехФорм.html",
+									"source": "434c65fa-c99b-4c98-b05f-c07eb009a2c8-attachment.html",
+									"type": "html"
+								},
+								{
+									"name": "СостояниеВсехФорм.xlsx",
+									"source": "99b20f28-72e9-44c0-adfa-91fc83ae3775-attachment.xlsx",
+									"type": "xlsx"
+								},
+								{
+									"name": "ДанныеОСетевыхСоединениях.txt",
+									"source": "245b64e7-6f08-4def-8d66-13c3ccfd4b73-attachment.txt",
+									"type": "txt"
+								},
+								{
+									"name": "ДанныеОПроцессахОС.txt",
+									"source": "5348f8d0-f8d4-44e2-8fd5-7da0838de54b-attachment.txt",
+									"type": "txt"
+								},
+								{
+									"name": "ЗначенияПеременных.mxl",
+									"source": "f08527d2-e6be-4d49-9d13-1dd8ee59e717-attachment.mxl",
+									"type": "mxl"
+								},
+								{
+									"name": "ЗначенияПеременных.html",
+									"source": "e789a691-f132-4fc7-bdc4-8b32415c8e5a-attachment.html",
+									"type": "html"
+								}
+							],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "Тогда Табличный документ \"Result\" равен макету \"Закупки2\"",
+					"start": 1792427243211,
+					"stop": 1792427243211,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "Закупки2"
+						}
+					],
+					"attachments": [
+						{
+							"name": "MainScreen",
+							"source": "81dc85ce-815b-4d55-b426-334301afbe0d-attachment.png",
+							"type": "image/png"
+						}
+					],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Модуль5"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-GTJK99K"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "MainScreen",
+			"source": "047063f0-eac5-4158-a22d-b8c4e39e61dd-attachment.png",
+			"type": "image/png"
+		},
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "932d5c5b-38bf-459a-9871-508506025c62-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "fd6cbde6-f324-46c6-97bd-c29ffbefdec7-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "40b0f0f5-96ea-4c59-9892-dad01e49a786-attachment.xlsx",
+			"type": "xlsx"
+		},
+		{
+			"name": "СостояниеАктивнойФормы.mxl",
+			"source": "57a759cd-40a4-4362-93a7-d7e69678f3b7-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "СостояниеАктивнойФормы.html",
+			"source": "7db4a2d0-2b2b-4b20-af09-0202d4510404-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "СостояниеАктивнойФормы.xlsx",
+			"source": "5f0788d2-c5ab-4846-b664-6c3505e16ea3-attachment.xlsx",
+			"type": "xlsx"
+		},
+		{
+			"name": "СостояниеВсехФорм.mxl",
+			"source": "4810d60b-58ce-445b-ada6-2028054f8d2c-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "СостояниеВсехФорм.html",
+			"source": "cd884474-3e16-4d56-bbba-a6a2b2a8ebcc-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "СостояниеВсехФорм.xlsx",
+			"source": "22425487-0e51-4d64-9afe-f7954f00f7c7-attachment.xlsx",
+			"type": "xlsx"
+		},
+		{
+			"name": "ДанныеОСетевыхСоединениях.txt",
+			"source": "a65ba83d-750d-4fda-9af5-45c1344fdb01-attachment.txt",
+			"type": "txt"
+		},
+		{
+			"name": "ДанныеОПроцессахОС.txt",
+			"source": "02a35fba-dee3-4c7d-bfc7-66897dd482ea-attachment.txt",
+			"type": "txt"
+		},
+		{
+			"name": "ЗначенияПеременных.mxl",
+			"source": "4b67f47c-8afd-434f-b84a-e798a1737abd-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЗначенияПеременных.html",
+			"source": "ad7c83ed-4da6-47b9-bb7b-193bef61de68-attachment.html",
+			"type": "html"
+		}
+	],
+	"description": null
+}
