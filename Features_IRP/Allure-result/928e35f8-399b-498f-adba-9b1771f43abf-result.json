@@ -1,0 +1,84 @@
+{
+	"uuid": "928e35f8-399b-498f-adba-9b1771f43abf",
+	"historyId": "<описание фичи>.проверка сообщения",
+	"name": "проверка сообщения",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1792453269694,
+	"stop": 1792453269725,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я запоминаю значение выражения 'StrTemplate($СообщениеШтрихКодНенайден$, \"123\")' в переменную \"ИмяПеременной2\"",
+			"start": 1792453269712,
+			"stop": 1792453269715,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "StrTemplate($СообщениеШтрихКодНенайден$, \"123\")"
+				},
+				{
+					"name": "Парам2",
+					"value": "ИмяПеременной2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Дано в последнем сообщении TestClient есть строка 'Штрихкод 123 не найден.'",
+			"start": 1792453269721,
+			"stop": 1792453269723,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Штрихкод 123 не найден."
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "проверка сообщения"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Модуль5"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-GTJK99K"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
