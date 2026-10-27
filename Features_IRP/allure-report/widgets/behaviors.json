@@ -1,24 +1,13 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "7e47c6d7816632f9f92a79f3451f375a",
-    "name" : "подготовка данных для проверки возвратов",
+    "uid" : "01f3bc68884b75095bf46f5f199d45c3",
+    "name" : "тест",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "41fa9004e4774ce60de81b946018c2ba",
-    "name" : "проверка отчета по продажам",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

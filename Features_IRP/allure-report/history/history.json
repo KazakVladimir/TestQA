@@ -1,39 +1,21 @@
 {
-  "проверка отображения возвратов в отчете D2001 Продажи.проверка отчета по продажам" : {
+  "<описание фичи>.тест" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc540c30a6b36bb2",
-      "status" : "passed",
+      "uid" : "d5d5914851b72a5c",
+      "status" : "failed",
+      "statusDetails" : "Найдено 2 ошибок:",
       "time" : {
-        "start" : 1792203728076,
-        "stop" : 1792203731051,
-        "duration" : 2975
-      }
-    } ]
-  },
-  "проверка отображения возвратов в отчете D2001 Продажи.подготовка данных для проверки возвратов" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c6acdc156ab82ebe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1792203724115,
-        "stop" : 1792203727039,
-        "duration" : 2924
+        "start" : 1793036233376,
+        "stop" : 1793036240782,
+        "duration" : 7406
       }
     } ]
   }

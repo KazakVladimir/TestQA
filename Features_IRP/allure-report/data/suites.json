@@ -2,27 +2,14 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "подготовка данных для проверки возвратов",
-    "uid" : "c6acdc156ab82ebe",
+    "name" : "тест",
+    "uid" : "d5d5914851b72a5c",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1792203724115,
-      "stop" : 1792203727039,
-      "duration" : 2924
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "проверка отчета по продажам",
-    "uid" : "cc540c30a6b36bb2",
-    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
-    "status" : "passed",
-    "time" : {
-      "start" : 1792203728076,
-      "stop" : 1792203731051,
-      "duration" : 2975
+      "start" : 1793036233376,
+      "stop" : 1793036240782,
+      "duration" : 7406
     },
     "flaky" : false,
     "newFailed" : false,

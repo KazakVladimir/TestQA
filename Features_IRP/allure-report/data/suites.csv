@@ -1,3 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Oct 17 05:22:08 MSK 2026","Sat Oct 17 05:22:11 MSK 2026","2975","","","","","","проверка отчета по продажам",""
-"passed","Sat Oct 17 05:22:04 MSK 2026","Sat Oct 17 05:22:07 MSK 2026","2924","","","","","","подготовка данных для проверки возвратов",""
+"failed","Mon Oct 26 20:37:13 MSK 2026","Mon Oct 26 20:37:20 MSK 2026","7406","","","","","","тест",""

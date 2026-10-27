@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Найдено 2 ошибок:",
+      "children" : [ {
+        "name" : "тест",
+        "uid" : "d5d5914851b72a5c",
+        "parentUid" : "db03436dc8b42129b9910f8de9755340",
+        "status" : "failed",
+        "time" : {
+          "start" : 1793036233376,
+          "stop" : 1793036240782,
+          "duration" : 7406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db03436dc8b42129b9910f8de9755340"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

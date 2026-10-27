@@ -2,34 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Модуль4",
+    "name" : "Методические материалы к Модулю 5",
     "children" : [ {
-      "name" : "подготовка данных для проверки возвратов",
-      "uid" : "c6acdc156ab82ebe",
-      "parentUid" : "4fbf64c3f5d6483dff9e4404858d969b",
-      "status" : "passed",
+      "name" : "тест",
+      "uid" : "d5d5914851b72a5c",
+      "parentUid" : "1c27ddc3fe98e4615769513299361c47",
+      "status" : "failed",
       "time" : {
-        "start" : 1792203724115,
-        "stop" : 1792203727039,
-        "duration" : 2924
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "проверка отчета по продажам",
-      "uid" : "cc540c30a6b36bb2",
-      "parentUid" : "4fbf64c3f5d6483dff9e4404858d969b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1792203728076,
-        "stop" : 1792203731051,
-        "duration" : 2975
+        "start" : 1793036233376,
+        "stop" : 1793036240782,
+        "duration" : 7406
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "4fbf64c3f5d6483dff9e4404858d969b"
+    "uid" : "1c27ddc3fe98e4615769513299361c47"
   } ]
 }
