@@ -1,11 +1,11 @@
 [ {
-  "uid" : "d5d5914851b72a5c",
-  "name" : "тест",
+  "uid" : "15a8ce468569cb77",
+  "name" : "Проверка заполнения организации",
   "time" : {
-    "start" : 1793036233376,
-    "stop" : 1793036240782,
-    "duration" : 7406
+    "start" : 1793114177171,
+    "stop" : 1793114178837,
+    "duration" : 1666
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 } ]

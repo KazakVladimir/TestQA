@@ -2,21 +2,21 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "тест",
+    "name" : "Проверка заполнения организации",
     "children" : [ {
-      "name" : "тест",
-      "uid" : "d5d5914851b72a5c",
-      "parentUid" : "01f3bc68884b75095bf46f5f199d45c3",
-      "status" : "failed",
+      "name" : "Проверка заполнения организации",
+      "uid" : "15a8ce468569cb77",
+      "parentUid" : "8a203dc3a58f6b8485edff87019a5e51",
+      "status" : "passed",
       "time" : {
-        "start" : 1793036233376,
-        "stop" : 1793036240782,
-        "duration" : 7406
+        "start" : 1793114177171,
+        "stop" : 1793114178837,
+        "duration" : 1666
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "01f3bc68884b75095bf46f5f199d45c3"
+    "uid" : "8a203dc3a58f6b8485edff87019a5e51"
   } ]
 }

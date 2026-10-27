@@ -2,14 +2,14 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "тест",
-    "uid" : "d5d5914851b72a5c",
+    "name" : "Проверка заполнения организации",
+    "uid" : "15a8ce468569cb77",
     "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1793036233376,
-      "stop" : 1793036240782,
-      "duration" : 7406
+      "start" : 1793114177171,
+      "stop" : 1793114178837,
+      "duration" : 1666
     },
     "flaky" : false,
     "newFailed" : false,

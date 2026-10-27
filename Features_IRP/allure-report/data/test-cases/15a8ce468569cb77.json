@@ -1,0 +1,314 @@
+{
+  "uid" : "15a8ce468569cb77",
+  "name" : "Проверка заполнения организации",
+  "historyId" : "Проверка заполнения организации в документе Заказ покупателя.Проверка заполнения организации",
+  "time" : {
+    "start" : 1793114177171,
+    "stop" : 1793114178837,
+    "duration" : 1666
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1793114177182,
+      "stop" : 1793114177194,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И я закрываю все окна клиентского приложения",
+      "time" : {
+        "start" : 1793114177196,
+        "stop" : 1793114177477,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Дано Я открываю навигационную ссылку \"e1cib/list/Document.SalesOrder\"",
+      "time" : {
+        "start" : 1793114177587,
+        "stop" : 1793114177588,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "e1cib/list/Document.SalesOrder"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И я нажимаю на кнопку с именем 'FormCreate'",
+      "time" : {
+        "start" : 1793114177590,
+        "stop" : 1793114177648,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "FormCreate"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И я нажимаю кнопку выбора у поля с именем 'Partner'",
+      "time" : {
+        "start" : 1793114177650,
+        "stop" : 1793114177802,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Partner"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Когда открылось окно \"Партнеры\"",
+      "time" : {
+        "start" : 1793114177804,
+        "stop" : 1793114177885,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Партнеры"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И в таблице 'List' я перехожу к строке:",
+      "time" : {
+        "start" : 1793114177887,
+        "stop" : 1793114177897,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44c3dd8b5a6d64bb",
+        "name" : "table",
+        "source" : "44c3dd8b5a6d64bb.csv",
+        "type" : "text/csv",
+        "size" : 82
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "List"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И я нажимаю на кнопку с именем 'FormChoose'",
+      "time" : {
+        "start" : 1793114177898,
+        "stop" : 1793114177909,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "FormChoose"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "И из выпадающего списка с именем 'Agreement' я выбираю по строке \"Соглашение с клиентами (расчет по документам + кредитный лимит)\"",
+      "time" : {
+        "start" : 1793114177911,
+        "stop" : 1793114178376,
+        "duration" : 465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Agreement"
+      }, {
+        "name" : "Парам2",
+        "value" : "Соглашение с клиентами (расчет по документам + кредитный лимит)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Когда открылось окно \"Табличная часть товаров будет обновлена\"",
+      "time" : {
+        "start" : 1793114178378,
+        "stop" : 1793114178836,
+        "duration" : 458
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я нажимаю на кнопку с именем 'FormOK'",
+        "time" : {
+          "start" : 1793114178378,
+          "stop" : 1793114178390,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "FormOK"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Если элемент формы с именем \"Company\" стал равен '' Тогда",
+        "time" : {
+          "start" : 1793114178392,
+          "stop" : 1793114178826,
+          "duration" : 434
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "И из выпадающего списка с именем 'Company' я выбираю по строке \"Собственная компания 1\"",
+          "time" : {
+            "start" : 1793114178437,
+            "stop" : 1793114178826,
+            "duration" : 389
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Company"
+          }, {
+            "name" : "Парам2",
+            "value" : "Собственная компания 1"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Company"
+        }, {
+          "name" : "Парам2",
+          "value" : ""
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Тогда элемент формы с именем \"Company\" стал равен \"Собственная компания 1\"",
+        "time" : {
+          "start" : 1793114178828,
+          "stop" : 1793114178836,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Company"
+        }, {
+          "name" : "Парам2",
+          "value" : "Собственная компания 1"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Проверка заполнения организации"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "Модуль5"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GTJK99K"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "15a8ce468569cb77.json",
+  "parameterValues" : [ ]
+}

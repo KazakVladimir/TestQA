@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Oct 26 20:37:13 MSK 2026","Mon Oct 26 20:37:20 MSK 2026","7406","","","","","","тест",""
+"passed","Tue Oct 27 18:16:17 MSK 2026","Tue Oct 27 18:16:18 MSK 2026","1666","","","","","","Проверка заполнения организации",""

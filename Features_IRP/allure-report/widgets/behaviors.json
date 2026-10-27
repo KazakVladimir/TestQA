@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "01f3bc68884b75095bf46f5f199d45c3",
-    "name" : "тест",
+    "uid" : "8a203dc3a58f6b8485edff87019a5e51",
+    "name" : "Проверка заполнения организации",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
