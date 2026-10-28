@@ -1,0 +1,27 @@
+{
+	"uuid": "58cf07b3-b438-4549-8af0-76bebd03e135",
+	"name": "Контекст_подготовка данных для проверки возвратов",
+	"description": "",
+	"children": [
+		"af205387-48c0-4ecd-9141-48f956eaf55c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1793223236288,
+			"stop": 1793223236303,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

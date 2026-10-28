@@ -4,14 +4,27 @@
   "children" : [ {
     "name" : "DESKTOP-GTJK99K",
     "children" : [ {
-      "name" : "Проверка заполнения организации",
-      "uid" : "15a8ce468569cb77",
+      "name" : "подготовка данных для проверки возвратов",
+      "uid" : "5b5f61ad8aed361",
       "parentUid" : "1c197da6b81597eba250cc7151e61ec3",
       "status" : "passed",
       "time" : {
-        "start" : 1793114177171,
-        "stop" : 1793114178837,
-        "duration" : 1666
+        "start" : 1793223236278,
+        "stop" : 1793223239076,
+        "duration" : 2798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "проверка отчета по продажам",
+      "uid" : "c488f3ed82d65cc8",
+      "parentUid" : "1c197da6b81597eba250cc7151e61ec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1793223240060,
+        "stop" : 1793223243013,
+        "duration" : 2953
       },
       "flaky" : false,
       "newFailed" : false,

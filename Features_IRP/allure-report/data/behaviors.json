@@ -2,21 +2,38 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Проверка заполнения организации",
+    "name" : "подготовка данных для проверки возвратов",
     "children" : [ {
-      "name" : "Проверка заполнения организации",
-      "uid" : "15a8ce468569cb77",
-      "parentUid" : "8a203dc3a58f6b8485edff87019a5e51",
+      "name" : "подготовка данных для проверки возвратов",
+      "uid" : "5b5f61ad8aed361",
+      "parentUid" : "7e47c6d7816632f9f92a79f3451f375a",
       "status" : "passed",
       "time" : {
-        "start" : 1793114177171,
-        "stop" : 1793114178837,
-        "duration" : 1666
+        "start" : 1793223236278,
+        "stop" : 1793223239076,
+        "duration" : 2798
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "8a203dc3a58f6b8485edff87019a5e51"
+    "uid" : "7e47c6d7816632f9f92a79f3451f375a"
+  }, {
+    "name" : "проверка отчета по продажам",
+    "children" : [ {
+      "name" : "проверка отчета по продажам",
+      "uid" : "c488f3ed82d65cc8",
+      "parentUid" : "41fa9004e4774ce60de81b946018c2ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1793223240060,
+        "stop" : 1793223243013,
+        "duration" : 2953
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "41fa9004e4774ce60de81b946018c2ba"
   } ]
 }

@@ -2,21 +2,34 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Модуль5",
+    "name" : "Модуль4",
     "children" : [ {
-      "name" : "Проверка заполнения организации",
-      "uid" : "15a8ce468569cb77",
-      "parentUid" : "2ed41448cb80031631af0494e6eed8a6",
+      "name" : "подготовка данных для проверки возвратов",
+      "uid" : "5b5f61ad8aed361",
+      "parentUid" : "4fbf64c3f5d6483dff9e4404858d969b",
       "status" : "passed",
       "time" : {
-        "start" : 1793114177171,
-        "stop" : 1793114178837,
-        "duration" : 1666
+        "start" : 1793223236278,
+        "stop" : 1793223239076,
+        "duration" : 2798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "проверка отчета по продажам",
+      "uid" : "c488f3ed82d65cc8",
+      "parentUid" : "4fbf64c3f5d6483dff9e4404858d969b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1793223240060,
+        "stop" : 1793223243013,
+        "duration" : 2953
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "2ed41448cb80031631af0494e6eed8a6"
+    "uid" : "4fbf64c3f5d6483dff9e4404858d969b"
   } ]
 }

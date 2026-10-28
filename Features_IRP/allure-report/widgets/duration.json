@@ -1,10 +1,20 @@
 [ {
-  "uid" : "15a8ce468569cb77",
-  "name" : "Проверка заполнения организации",
+  "uid" : "5b5f61ad8aed361",
+  "name" : "подготовка данных для проверки возвратов",
   "time" : {
-    "start" : 1793114177171,
-    "stop" : 1793114178837,
-    "duration" : 1666
+    "start" : 1793223236278,
+    "stop" : 1793223239076,
+    "duration" : 2798
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c488f3ed82d65cc8",
+  "name" : "проверка отчета по продажам",
+  "time" : {
+    "start" : 1793223240060,
+    "stop" : 1793223243013,
+    "duration" : 2953
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,1619 @@
+{
+  "uid" : "5b5f61ad8aed361",
+  "name" : "подготовка данных для проверки возвратов",
+  "historyId" : "проверка отображения возвратов в отчете D2001 Продажи.подготовка данных для проверки возвратов",
+  "time" : {
+    "start" : 1793223236278,
+    "stop" : 1793223239076,
+    "duration" : 2798
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+    "time" : {
+      "start" : 1793223236288,
+      "stop" : 1793223236303,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Когда экспорт основных данных",
+      "time" : {
+        "start" : 1793223236305,
+        "stop" : 1793223238646,
+        "duration" : 2341
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я перезаполняю константу \"SaasMode\" значением \"False\"",
+        "time" : {
+          "start" : 1793223236305,
+          "stop" : 1793223236320,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "SaasMode"
+        }, {
+          "name" : "Парам2",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю константу \"EnableLinkedRowsIntegrity\" значением \"False\"",
+        "time" : {
+          "start" : 1793223236321,
+          "stop" : 1793223236334,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "EnableLinkedRowsIntegrity"
+        }, {
+          "name" : "Парам2",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю константу \"UseLockDataModification\" значением \"True\"",
+        "time" : {
+          "start" : 1793223236336,
+          "stop" : 1793223236349,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "UseLockDataModification"
+        }, {
+          "name" : "Парам2",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю константу \"UseItemKey\" значением \"True\"",
+        "time" : {
+          "start" : 1793223236351,
+          "stop" : 1793223236365,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "UseItemKey"
+        }, {
+          "name" : "Парам2",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю константу \"UseCompanies\" значением \"True\"",
+        "time" : {
+          "start" : 1793223236367,
+          "stop" : 1793223236382,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "UseCompanies"
+        }, {
+          "name" : "Парам2",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю константу \"NotFirstStart\" значением \"False\"",
+        "time" : {
+          "start" : 1793223236383,
+          "stop" : 1793223236396,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "NotFirstStart"
+        }, {
+          "name" : "Парам2",
+          "value" : "False"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Currencies\" объекты:",
+        "time" : {
+          "start" : 1793223236398,
+          "stop" : 1793223236429,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7049009799c558b6",
+          "name" : "table",
+          "source" : "7049009799c558b6.csv",
+          "type" : "text/csv",
+          "size" : 359
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Currencies"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Taxes\" объекты:",
+        "time" : {
+          "start" : 1793223236431,
+          "stop" : 1793223236458,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3fa914e6713396bc",
+          "name" : "table",
+          "source" : "3fa914e6713396bc.csv",
+          "type" : "text/csv",
+          "size" : 613
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Taxes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"TaxRates\":",
+        "time" : {
+          "start" : 1793223236459,
+          "stop" : 1793223236476,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f1b1b4a4a2b7316b",
+          "name" : "table",
+          "source" : "f1b1b4a4a2b7316b.csv",
+          "type" : "text/csv",
+          "size" : 416
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "TaxRates"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"UseDocuments\":",
+        "time" : {
+          "start" : 1793223236477,
+          "stop" : 1793223236500,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "adc046d10fa1bea",
+          "name" : "table",
+          "source" : "adc046d10fa1bea.csv",
+          "type" : "text/csv",
+          "size" : 1095
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "UseDocuments"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"ItemTypes\" объекты:",
+        "time" : {
+          "start" : 1793223236503,
+          "stop" : 1793223236626,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "afa3735f2231284b",
+          "name" : "table",
+          "source" : "afa3735f2231284b.csv",
+          "type" : "text/csv",
+          "size" : 784
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ItemTypes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"AvailableAttributes\":",
+        "time" : {
+          "start" : 1793223236628,
+          "stop" : 1793223236645,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3ac503fb0cf9bcaa",
+          "name" : "table",
+          "source" : "3ac503fb0cf9bcaa.csv",
+          "type" : "text/csv",
+          "size" : 447
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "AvailableAttributes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"PriceTypes\" объекты:",
+        "time" : {
+          "start" : 1793223236647,
+          "stop" : 1793223236694,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4f94db7da34217fe",
+          "name" : "table",
+          "source" : "4f94db7da34217fe.csv",
+          "type" : "text/csv",
+          "size" : 1225
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PriceTypes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"ExternalDataProc\" объекты:",
+        "time" : {
+          "start" : 1793223236696,
+          "stop" : 1793223236737,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aba11eab688211c9",
+          "name" : "table",
+          "source" : "aba11eab688211c9.csv",
+          "type" : "text/csv",
+          "size" : 26889
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ExternalDataProc"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"UserGroups\" объекты:",
+        "time" : {
+          "start" : 1793223236739,
+          "stop" : 1793223236762,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "79fefcc223b81fcf",
+          "name" : "table",
+          "source" : "79fefcc223b81fcf.csv",
+          "type" : "text/csv",
+          "size" : 200
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "UserGroups"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Units\" объекты:",
+        "time" : {
+          "start" : 1793223236764,
+          "stop" : 1793223236795,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "82db7808abe79043",
+          "name" : "table",
+          "source" : "82db7808abe79043.csv",
+          "type" : "text/csv",
+          "size" : 508
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Units"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"AddAttributeAndPropertyValues\" объекты:",
+        "time" : {
+          "start" : 1793223236797,
+          "stop" : 1793223236867,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5b418086529dae53",
+          "name" : "table",
+          "source" : "5b418086529dae53.csv",
+          "type" : "text/csv",
+          "size" : 2482
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "AddAttributeAndPropertyValues"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"CashAccounts\" объекты:",
+        "time" : {
+          "start" : 1793223236868,
+          "stop" : 1793223236918,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7d978c49cecad805",
+          "name" : "table",
+          "source" : "7d978c49cecad805.csv",
+          "type" : "text/csv",
+          "size" : 1958
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "CashAccounts"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"TaxRates\" объекты:",
+        "time" : {
+          "start" : 1793223236919,
+          "stop" : 1793223236956,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f61efd25d5e8e821",
+          "name" : "table",
+          "source" : "f61efd25d5e8e821.csv",
+          "type" : "text/csv",
+          "size" : 414
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "TaxRates"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"IntegrationSettings\" объекты:",
+        "time" : {
+          "start" : 1793223236957,
+          "stop" : 1793223236990,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4b53d337bd75ea9a",
+          "name" : "table",
+          "source" : "4b53d337bd75ea9a.csv",
+          "type" : "text/csv",
+          "size" : 621
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "IntegrationSettings"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"ConnectionSetting\":",
+        "time" : {
+          "start" : 1793223236991,
+          "stop" : 1793223237018,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2b75600b1ff1a81a",
+          "name" : "table",
+          "source" : "2b75600b1ff1a81a.csv",
+          "type" : "text/csv",
+          "size" : 2144
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ConnectionSetting"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Items\" объекты:",
+        "time" : {
+          "start" : 1793223237019,
+          "stop" : 1793223237073,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ce8811e1a0d85aba",
+          "name" : "table",
+          "source" : "ce8811e1a0d85aba.csv",
+          "type" : "text/csv",
+          "size" : 1947
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Items"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"AddAttributes\":",
+        "time" : {
+          "start" : 1793223237075,
+          "stop" : 1793223237102,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4f5961c472d012d8",
+          "name" : "table",
+          "source" : "4f5961c472d012d8.csv",
+          "type" : "text/csv",
+          "size" : 1045
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "AddAttributes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Companies\" объекты:",
+        "time" : {
+          "start" : 1793223237106,
+          "stop" : 1793223237197,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b050a4db50ee3aab",
+          "name" : "table",
+          "source" : "b050a4db50ee3aab.csv",
+          "type" : "text/csv",
+          "size" : 2443
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Companies"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"Currencies\":",
+        "time" : {
+          "start" : 1793223237199,
+          "stop" : 1793223237221,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7ff83d47d2d82869",
+          "name" : "table",
+          "source" : "7ff83d47d2d82869.csv",
+          "type" : "text/csv",
+          "size" : 693
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Currencies"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Partners\" объекты:",
+        "time" : {
+          "start" : 1793223237222,
+          "stop" : 1793223237315,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "60c638ded45bc831",
+          "name" : "table",
+          "source" : "60c638ded45bc831.csv",
+          "type" : "text/csv",
+          "size" : 2651
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Partners"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"BusinessUnits\" объекты:",
+        "time" : {
+          "start" : 1793223237317,
+          "stop" : 1793223237351,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d4d0973bdc843720",
+          "name" : "table",
+          "source" : "d4d0973bdc843720.csv",
+          "type" : "text/csv",
+          "size" : 513
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "BusinessUnits"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"AccessProfiles\" объекты:",
+        "time" : {
+          "start" : 1793223237352,
+          "stop" : 1793223237387,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "279a62bdb6a57bf",
+          "name" : "table",
+          "source" : "279a62bdb6a57bf.csv",
+          "type" : "text/csv",
+          "size" : 346
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "AccessProfiles"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"Roles\":",
+        "time" : {
+          "start" : 1793223237388,
+          "stop" : 1793223237408,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a57f70c379d5ae",
+          "name" : "table",
+          "source" : "a57f70c379d5ae.csv",
+          "type" : "text/csv",
+          "size" : 992
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Roles"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"PartnerSegments\" объекты:",
+        "time" : {
+          "start" : 1793223237410,
+          "stop" : 1793223237444,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e0326613e1b74f97",
+          "name" : "table",
+          "source" : "e0326613e1b74f97.csv",
+          "type" : "text/csv",
+          "size" : 524
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PartnerSegments"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Stores\" объекты:",
+        "time" : {
+          "start" : 1793223237446,
+          "stop" : 1793223237481,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2d0f01293154cd1",
+          "name" : "table",
+          "source" : "f2d0f01293154cd1.csv",
+          "type" : "text/csv",
+          "size" : 674
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Stores"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Agreements\" объекты:",
+        "time" : {
+          "start" : 1793223237483,
+          "stop" : 1793223237576,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4d48aa3b0bd6d231",
+          "name" : "table",
+          "source" : "4d48aa3b0bd6d231.csv",
+          "type" : "text/csv",
+          "size" : 6810
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Agreements"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Specifications\" объекты:",
+        "time" : {
+          "start" : 1793223237577,
+          "stop" : 1793223237622,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "624741b0061c7fc2",
+          "name" : "table",
+          "source" : "624741b0061c7fc2.csv",
+          "type" : "text/csv",
+          "size" : 546
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Specifications"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"DataSet\":",
+        "time" : {
+          "start" : 1793223237623,
+          "stop" : 1793223237657,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a2fc31816fa1c409",
+          "name" : "table",
+          "source" : "a2fc31816fa1c409.csv",
+          "type" : "text/csv",
+          "size" : 5398
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "DataSet"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"DataQuantity\":",
+        "time" : {
+          "start" : 1793223237659,
+          "stop" : 1793223237683,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "31a7c88bc24badb5",
+          "name" : "table",
+          "source" : "31a7c88bc24badb5.csv",
+          "type" : "text/csv",
+          "size" : 963
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "DataQuantity"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"DataBaseStatus\" объекты:",
+        "time" : {
+          "start" : 1793223237685,
+          "stop" : 1793223237748,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8d7b4d2e1febb814",
+          "name" : "table",
+          "source" : "8d7b4d2e1febb814.csv",
+          "type" : "text/csv",
+          "size" : 2129
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "DataBaseStatus"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"ConnectionSettings\":",
+        "time" : {
+          "start" : 1793223237750,
+          "stop" : 1793223237780,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c74df609a5999420",
+          "name" : "table",
+          "source" : "c74df609a5999420.csv",
+          "type" : "text/csv",
+          "size" : 918
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ConnectionSettings"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"ObjectStatuses\" объекты:",
+        "time" : {
+          "start" : 1793223237781,
+          "stop" : 1793223237991,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "815dea2baae3654c",
+          "name" : "table",
+          "source" : "815dea2baae3654c.csv",
+          "type" : "text/csv",
+          "size" : 5881
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ObjectStatuses"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Countries\" объекты:",
+        "time" : {
+          "start" : 1793223237992,
+          "stop" : 1793223238015,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bb32e6d9adfca22b",
+          "name" : "table",
+          "source" : "bb32e6d9adfca22b.csv",
+          "type" : "text/csv",
+          "size" : 311
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Countries"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"PaymentSchedules\" объекты:",
+        "time" : {
+          "start" : 1793223238016,
+          "stop" : 1793223238043,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a5514f3d96dd451c",
+          "name" : "table",
+          "source" : "a5514f3d96dd451c.csv",
+          "type" : "text/csv",
+          "size" : 357
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PaymentSchedules"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"StagesOfPayment\":",
+        "time" : {
+          "start" : 1793223238045,
+          "stop" : 1793223238063,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c7fab9e837c548be",
+          "name" : "table",
+          "source" : "c7fab9e837c548be.csv",
+          "type" : "text/csv",
+          "size" : 319
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "StagesOfPayment"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"ItemKeys\" объекты:",
+        "time" : {
+          "start" : 1793223238064,
+          "stop" : 1793223238180,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b3195af9f8f347e5",
+          "name" : "table",
+          "source" : "b3195af9f8f347e5.csv",
+          "type" : "text/csv",
+          "size" : 3022
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ItemKeys"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"AddAttributes\":",
+        "time" : {
+          "start" : 1793223238182,
+          "stop" : 1793223238207,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b01e3e845a0d85c",
+          "name" : "table",
+          "source" : "3b01e3e845a0d85c.csv",
+          "type" : "text/csv",
+          "size" : 2125
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "AddAttributes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"SpecificationAffectPricingMD5\":",
+        "time" : {
+          "start" : 1793223238209,
+          "stop" : 1793223238233,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "60cb278d6fc2f330",
+          "name" : "table",
+          "source" : "60cb278d6fc2f330.csv",
+          "type" : "text/csv",
+          "size" : 1244
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "SpecificationAffectPricingMD5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для документа \"PriceList\" объекты:",
+        "time" : {
+          "start" : 1793223238234,
+          "stop" : 1793223238316,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cb20791839343bb4",
+          "name" : "table",
+          "source" : "cb20791839343bb4.csv",
+          "type" : "text/csv",
+          "size" : 991
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PriceList"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"ItemList\":",
+        "time" : {
+          "start" : 1793223238317,
+          "stop" : 1793223238335,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7939c9f1ed6933e8",
+          "name" : "table",
+          "source" : "7939c9f1ed6933e8.csv",
+          "type" : "text/csv",
+          "size" : 634
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ItemList"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"ItemKeyList\":",
+        "time" : {
+          "start" : 1793223238336,
+          "stop" : 1793223238363,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aad257a5dc73358d",
+          "name" : "table",
+          "source" : "aad257a5dc73358d.csv",
+          "type" : "text/csv",
+          "size" : 2315
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ItemKeyList"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для плана видов характеристик \"CurrencyMovementType\" объекты:",
+        "time" : {
+          "start" : 1793223238364,
+          "stop" : 1793223238399,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "23a5b7656f8098c0",
+          "name" : "table",
+          "source" : "23a5b7656f8098c0.csv",
+          "type" : "text/csv",
+          "size" : 1646
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "CurrencyMovementType"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для плана видов характеристик \"AddAttributeAndProperty\" объекты:",
+        "time" : {
+          "start" : 1793223238400,
+          "stop" : 1793223238431,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "649de772212358b0",
+          "name" : "table",
+          "source" : "649de772212358b0.csv",
+          "type" : "text/csv",
+          "size" : 1088
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "AddAttributeAndProperty"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"CurrencyRates\" записи:",
+        "time" : {
+          "start" : 1793223238432,
+          "stop" : 1793223238452,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9c0b9f6f2e8d9d87",
+          "name" : "table",
+          "source" : "9c0b9f6f2e8d9d87.csv",
+          "type" : "text/csv",
+          "size" : 572
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "CurrencyRates"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"Taxes\" записи:",
+        "time" : {
+          "start" : 1793223238454,
+          "stop" : 1793223238475,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "195fd95dfacf504d",
+          "name" : "table",
+          "source" : "195fd95dfacf504d.csv",
+          "type" : "text/csv",
+          "size" : 378
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Taxes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"TaxSettings\" записи:",
+        "time" : {
+          "start" : 1793223238476,
+          "stop" : 1793223238497,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6128e7142f5e8e85",
+          "name" : "table",
+          "source" : "6128e7142f5e8e85.csv",
+          "type" : "text/csv",
+          "size" : 313
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "TaxSettings"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"PricesByItems\" записи:",
+        "time" : {
+          "start" : 1793223238498,
+          "stop" : 1793223238518,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f17dc0312390e205",
+          "name" : "table",
+          "source" : "f17dc0312390e205.csv",
+          "type" : "text/csv",
+          "size" : 1090
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PricesByItems"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"PricesByItemKeys\" записи:",
+        "time" : {
+          "start" : 1793223238520,
+          "stop" : 1793223238556,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a319b2864b09a923",
+          "name" : "table",
+          "source" : "a319b2864b09a923.csv",
+          "type" : "text/csv",
+          "size" : 3113
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PricesByItemKeys"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"Barcodes\" записи:",
+        "time" : {
+          "start" : 1793223238558,
+          "stop" : 1793223238586,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5fa553fcfaddb983",
+          "name" : "table",
+          "source" : "5fa553fcfaddb983.csv",
+          "type" : "text/csv",
+          "size" : 635
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Barcodes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для регистра сведений \"PartnerSegments\" записи:",
+        "time" : {
+          "start" : 1793223238587,
+          "stop" : 1793223238621,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "188558392bb90fbe",
+          "name" : "table",
+          "source" : "188558392bb90fbe.csv",
+          "type" : "text/csv",
+          "size" : 876
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "PartnerSegments"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"ExpenseAndRevenueTypes\" объекты:",
+        "time" : {
+          "start" : 1793223238622,
+          "stop" : 1793223238646,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c0ac6469f9e433ea",
+          "name" : "table",
+          "source" : "c0ac6469f9e433ea.csv",
+          "type" : "text/csv",
+          "size" : 322
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ExpenseAndRevenueTypes"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 57,
+      "hasContent" : true,
+      "attachmentsCount" : 51,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Когда экспорт документов возврат товаров от покупателя",
+      "time" : {
+        "start" : 1793223238648,
+        "stop" : 1793223238782,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я проверяю или создаю для справочника \"RowIDs\" объекты:",
+        "time" : {
+          "start" : 1793223238648,
+          "stop" : 1793223238674,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8f8b568945ce84e0",
+          "name" : "table",
+          "source" : "8f8b568945ce84e0.csv",
+          "type" : "text/csv",
+          "size" : 1290
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "RowIDs"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я проверяю или создаю для документа \"SalesReturn\" объекты:",
+        "time" : {
+          "start" : 1793223238675,
+          "stop" : 1793223238700,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8854371047e848a8",
+          "name" : "table",
+          "source" : "8854371047e848a8.csv",
+          "type" : "text/csv",
+          "size" : 831
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "SalesReturn"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"ItemList\":",
+        "time" : {
+          "start" : 1793223238701,
+          "stop" : 1793223238721,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "36b20d6927086b5e",
+          "name" : "table",
+          "source" : "36b20d6927086b5e.csv",
+          "type" : "text/csv",
+          "size" : 752
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ItemList"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"TaxList\":",
+        "time" : {
+          "start" : 1793223238722,
+          "stop" : 1793223238740,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5016868c822aba55",
+          "name" : "table",
+          "source" : "5016868c822aba55.csv",
+          "type" : "text/csv",
+          "size" : 359
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "TaxList"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"Currencies\":",
+        "time" : {
+          "start" : 1793223238742,
+          "stop" : 1793223238762,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1fbbe9e6249b7e79",
+          "name" : "table",
+          "source" : "1fbbe9e6249b7e79.csv",
+          "type" : "text/csv",
+          "size" : 1229
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Currencies"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"RowIDInfo\":",
+        "time" : {
+          "start" : 1793223238764,
+          "stop" : 1793223238782,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1d6a51dee57fbd15",
+          "name" : "table",
+          "source" : "1d6a51dee57fbd15.csv",
+          "type" : "text/csv",
+          "size" : 362
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "RowIDInfo"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я выполняю код встроенного языка на сервере",
+      "time" : {
+        "start" : 1793223238784,
+        "stop" : 1793223239075,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79fad0ddc6851d02",
+        "name" : "table",
+        "source" : "79fad0ddc6851d02.csv",
+        "type" : "text/csv",
+        "size" : 179
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 66,
+    "hasContent" : true,
+    "attachmentsCount" : 58,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "подготовка данных для проверки возвратов"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "critical"
+  }, {
+    "name" : "package",
+    "value" : "Модуль4"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GTJK99K"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "critical", "tree" ]
+  },
+  "source" : "5b5f61ad8aed361.json",
+  "parameterValues" : [ ]
+}
